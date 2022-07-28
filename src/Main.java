@@ -90,6 +90,10 @@ public class Main {
         System.out.println(diet1Result + " = Столько дней может потребоваться в среднем, чтобы добиться результата похудения при диете по 250 Грамм в день");
         System.out.println(diet2Result + " = Столько дней может потребоваться в среднем, чтобы добиться результата похудения при диете по 500 Грамм в день");
 
+        int AvgDays = diet1Result + diet2Result / 2;
+
+        System.out.println("В среднем потребуется " + AvgDays + " дней");
+
         System.out.println("Пятое задание началось");
 
         int MashaSalary = 67760;
